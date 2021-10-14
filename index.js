@@ -7,7 +7,7 @@ function createWindow () {
     titleBarStyle: 'hidden',
     fullscreenable: false,
     resizable: false,
-    width: 800,
+    width: 1000,
     height: 600
   })
 
