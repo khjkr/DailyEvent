@@ -256,3 +256,14 @@ body {
   margin-left: 15px;
   color: var(--black2)
 }
+
+.footer {
+  position: relative;
+  width: 100%;
+  color: var(--black2);
+}
+
+.footer .warn {
+  padding: 100px;
+  text-align: center;
+}
