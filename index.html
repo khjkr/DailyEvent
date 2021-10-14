@@ -31,6 +31,30 @@
           </li>
           <li>
             <a href="#">
+              <span class="icon"><ion-icon name="trophy-outline"></ion-icon></span>
+              <span class="title">각종 차트순위</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon"><ion-icon name="sparkles-outline"></ion-icon></span>
+              <span class="title">오늘의 운세</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon"><ion-icon name="send-outline"></ion-icon></span>
+              <span class="title">건의하기</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon"><ion-icon name="cash-outline"></ion-icon></span>
+              <span class="title">후원하기</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
               <span class="icon"><ion-icon name="help-circle-outline"></ion-icon></span>
               <span class="title">도움말</span>
             </a>
@@ -49,6 +73,9 @@
         <div class="topbar">
           <div class="toggle">
             <ion-icon name="menu-outline"></ion-icon>
+          </div>
+          <div class="refresh">
+            <ion-icon name="sync-outline"></ion-icon>
           </div>
         </div>
       </div>
@@ -129,10 +156,15 @@
       let toggle = document.querySelector('.toggle')
       let navigation = document.querySelector('.navigation')
       let main = document.querySelector('.main')
+      let refresh = document.querySelector('.refresh')
 
       toggle.onclick = function() {
         navigation.classList.toggle('active')
         main.classList.toggle('active')
+      }
+
+      refresh.onclick = function() {
+        location.reload(true);
       }
 
 
