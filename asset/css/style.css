@@ -211,3 +211,36 @@ body {
   margin-left: 15px;
   color: var(--black2)
 }
+
+.cardBox2 {
+  position: relative;
+  left: 270px;
+  height: 400px;
+  padding: 20px;
+  top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+}
+
+.cardBox2 .card2 {
+  position: relative;
+  background: var(--white);
+  padding: 30px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+}
+
+.cardBox2 .card2 .cardName {
+  color: var(--black2);
+  font-size: 1.5em;
+  margin-top: 5px;
+}
+
+.cardBox2 .card2 .iconBx {
+  font-size: 3em;
+  margin-left: 15px;
+  color: var(--black2)
+}
