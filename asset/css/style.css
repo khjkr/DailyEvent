@@ -171,3 +171,43 @@ body {
   font-size: 2.5em;
   cursor: pointer;
 }
+
+.cardBox {
+  position: relative;
+  left: 250px;
+  width: 120px;
+  padding: 20px;
+  top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+}
+
+.cardBox .card {
+  position: relative;
+  background: var(--white);
+  padding: 30px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+}
+
+.cardBox .card .numbers {
+  position: relative;
+  font-weight: 500;
+  font-size: 2.2em;
+  color: var(--green)
+}
+
+.cardBox .card .cardName {
+  color: var(--black2);
+  font-size: 1em;
+  margin-top: 5px;
+}
+
+.cardBox .card .iconBx {
+  font-size: 3em;
+  margin-left: 15px;
+  color: var(--black2)
+}
